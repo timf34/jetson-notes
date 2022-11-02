@@ -1,0 +1,30 @@
+Just some notes while my computer is down 
+
+For a Jetson cheatsheet:
+
+To fix a 'inconsistent use of tabs and spaces' error...
+
+1. `pip install autopep8`
+2. `autopep8 -i my_script.py`
+
+This should fix things up. 
+
+
+Notes on testing openCV. 
+
+`testing/testing_cv2.py`
+
+This file works fine. It shows the camera feed to the display using cv2. Slight lag but 
+all good. 
+
+
+`testing/fast_cv2_video_saving.py` 
+
+This file uses multithreading to save video at a faster rate than otherwise. 
+However we get a segementation fault with the plain file as it currently is. 
+
+
+### Other Jetsons 
+
+- I should makea  github repo for these notes... the laptop seems to be continually fucking up 
+And I Would also want to transfer these over!
